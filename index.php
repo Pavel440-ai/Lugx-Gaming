@@ -44,33 +44,7 @@ https://templatemo.com/tm-589-lugx-gaming
   <!-- ***** Preloader End ***** -->
 
   <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
-                        <img src="assets/images/logo.png" alt="" style="width: 158px;">
-                    </a>
-                    <!-- ***** Logo End ***** -->
-                    <!-- ***** Menu Start ***** -->
-                    <ul class="nav">
-                      <li><a href="index.html" class="active">Home</a></li>
-                      <li><a href="shop.html">Our Shop</a></li>
-                      <li><a href="product-details.html">Product Details</a></li>
-                      <li><a href="contact.html">Contact Us</a></li>
-                      <li><a href="#">Sign In</a></li>
-                  </ul>   
-                    <a class='menu-trigger'>
-                        <span>Menu</span>
-                    </a>
-                    <!-- ***** Menu End ***** -->
-                </nav>
-            </div>
-        </div>
-    </div>
-  </header>
+  <?php include 'php/header.php'; ?>
   <!-- ***** Header Area End ***** -->
 
   <div class="main-banner">
@@ -158,58 +132,58 @@ https://templatemo.com/tm-589-lugx-gaming
         </div>
         <div class="col-lg-6">
           <div class="main-button">
-            <a href="shop.html">View All</a>
+            <a href="shop.php">View All</a>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="item">
             <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/trending-01.jpg" alt=""></a>
+              <a href="product-details.php"><img src="assets/images/trending-01.jpg" alt=""></a>
               <span class="price"><em>$28</em>$20</span>
             </div>
             <div class="down-content">
               <span class="category">Action</span>
               <h4>Assasin Creed</h4>
-              <a href="product-details.html"><i class="fa fa-shopping-bag"></i></a>
+              <a href="product-details.php"><i class="fa fa-shopping-bag"></i></a>
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="item">
             <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/trending-02.jpg" alt=""></a>
+              <a href="product-details.php"><img src="assets/images/trending-02.jpg" alt=""></a>
               <span class="price">$44</span>
             </div>
             <div class="down-content">
               <span class="category">Action</span>
               <h4>Assasin Creed</h4>
-              <a href="product-details.html"><i class="fa fa-shopping-bag"></i></a>
+              <a href="product-details.php"><i class="fa fa-shopping-bag"></i></a>
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="item">
             <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/trending-03.jpg" alt=""></a>
+              <a href="product-details.php"><img src="assets/images/trending-03.jpg" alt=""></a>
               <span class="price"><em>$64</em>$44</span>
             </div>
             <div class="down-content">
               <span class="category">Action</span>
               <h4>Assasin Creed</h4>
-              <a href="product-details.html"><i class="fa fa-shopping-bag"></i></a>
+              <a href="product-details.php"><i class="fa fa-shopping-bag"></i></a>
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="item">
             <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/trending-04.jpg" alt=""></a>
+              <a href="product-details.php"><img src="assets/images/trending-04.jpg" alt=""></a>
               <span class="price">$32</span>
             </div>
             <div class="down-content">
               <span class="category">Action</span>
               <h4>Assasin Creed</h4>
-              <a href="product-details.html"><i class="fa fa-shopping-bag"></i></a>
+              <a href="product-details.php"><i class="fa fa-shopping-bag"></i></a>
             </div>
           </div>
         </div>
@@ -228,78 +202,78 @@ https://templatemo.com/tm-589-lugx-gaming
         </div>
         <div class="col-lg-6">
           <div class="main-button">
-            <a href="shop.html">View All</a>
+            <a href="shop.php">View All</a>
           </div>
         </div>
         <div class="col-lg-2 col-md-6 col-sm-6">
           <div class="item">
             <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/top-game-01.jpg" alt=""></a>
+              <a href="product-details.php"><img src="assets/images/top-game-01.jpg" alt=""></a>
             </div>
             <div class="down-content">
                 <span class="category">Adventure</span>
                 <h4>Assasin Creed</h4>
-                <a href="product-details.html">Explore</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-6 col-sm-6">
-          <div class="item">
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/top-game-02.jpg" alt=""></a>
-            </div>
-            <div class="down-content">
-                <span class="category">Adventure</span>
-                <h4>Assasin Creed</h4>
-                <a href="product-details.html">Explore</a>
+                <a href="product-details.php">Explore</a>
             </div>
           </div>
         </div>
         <div class="col-lg-2 col-md-6 col-sm-6">
           <div class="item">
             <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/top-game-03.jpg" alt=""></a>
+              <a href="product-details.php"><img src="assets/images/top-game-02.jpg" alt=""></a>
             </div>
             <div class="down-content">
                 <span class="category">Adventure</span>
                 <h4>Assasin Creed</h4>
-                <a href="product-details.html">Explore</a>
+                <a href="product-details.php">Explore</a>
             </div>
           </div>
         </div>
         <div class="col-lg-2 col-md-6 col-sm-6">
           <div class="item">
             <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/top-game-04.jpg" alt=""></a>
+              <a href="product-details.php"><img src="assets/images/top-game-03.jpg" alt=""></a>
             </div>
             <div class="down-content">
                 <span class="category">Adventure</span>
                 <h4>Assasin Creed</h4>
-                <a href="product-details.html">Explore</a>
+                <a href="product-details.php">Explore</a>
             </div>
           </div>
         </div>
         <div class="col-lg-2 col-md-6 col-sm-6">
           <div class="item">
             <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/top-game-05.jpg" alt=""></a>
+              <a href="product-details.php"><img src="assets/images/top-game-04.jpg" alt=""></a>
             </div>
             <div class="down-content">
                 <span class="category">Adventure</span>
                 <h4>Assasin Creed</h4>
-                <a href="product-details.html">Explore</a>
+                <a href="product-details.php">Explore</a>
             </div>
           </div>
         </div>
         <div class="col-lg-2 col-md-6 col-sm-6">
           <div class="item">
             <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/top-game-06.jpg" alt=""></a>
+              <a href="product-details.php"><img src="assets/images/top-game-05.jpg" alt=""></a>
             </div>
             <div class="down-content">
                 <span class="category">Adventure</span>
                 <h4>Assasin Creed</h4>
-                <a href="product-details.html">Explore</a>
+                <a href="product-details.php">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6">
+          <div class="item">
+            <div class="thumb">
+              <a href="product-details.php"><img src="assets/images/top-game-06.jpg" alt=""></a>
+            </div>
+            <div class="down-content">
+                <span class="category">Adventure</span>
+                <h4>Assasin Creed</h4>
+                <a href="product-details.php">Explore</a>
             </div>
           </div>
         </div>
@@ -320,7 +294,7 @@ https://templatemo.com/tm-589-lugx-gaming
           <div class="item">
             <h4>Action</h4>
             <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/categories-01.jpg" alt=""></a>
+              <a href="product-details.php"><img src="assets/images/categories-01.jpg" alt=""></a>
             </div>
           </div>
         </div>
@@ -328,7 +302,7 @@ https://templatemo.com/tm-589-lugx-gaming
           <div class="item">
             <h4>Action</h4>
             <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/categories-05.jpg" alt=""></a>
+              <a href="product-details.php"><img src="assets/images/categories-05.jpg" alt=""></a>
             </div>
           </div>
         </div>
@@ -336,7 +310,7 @@ https://templatemo.com/tm-589-lugx-gaming
           <div class="item">
             <h4>Action</h4>
             <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/categories-03.jpg" alt=""></a>
+              <a href="product-details.php"><img src="assets/images/categories-03.jpg" alt=""></a>
             </div>
           </div>
         </div>
@@ -344,7 +318,7 @@ https://templatemo.com/tm-589-lugx-gaming
           <div class="item">
             <h4>Action</h4>
             <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/categories-04.jpg" alt=""></a>
+              <a href="product-details.php"><img src="assets/images/categories-04.jpg" alt=""></a>
             </div>
           </div>
         </div>
@@ -352,7 +326,7 @@ https://templatemo.com/tm-589-lugx-gaming
           <div class="item">
             <h4>Action</h4>
             <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/categories-05.jpg" alt=""></a>
+              <a href="product-details.php"><img src="assets/images/categories-05.jpg" alt=""></a>
             </div>
           </div>
         </div>
@@ -373,7 +347,7 @@ https://templatemo.com/tm-589-lugx-gaming
                 </div>
                 <p>Lorem ipsum dolor consectetur adipiscing, sed do eiusmod tempor incididunt.</p>
                 <div class="main-button">
-                  <a href="shop.html">Shop Now</a>
+                  <a href="shop.php">Shop Now</a>
                 </div>
               </div>
             </div>
@@ -401,13 +375,7 @@ https://templatemo.com/tm-589-lugx-gaming
     </div>
   </div>
 
-  <footer>
-    <div class="container">
-      <div class="col-lg-12">
-        <p>Copyright © 2048 LUGX Gaming Company. All rights reserved. &nbsp;&nbsp; <a rel="nofollow" href="https://templatemo.com" target="_blank">Design: TemplateMo</a></p>
-      </div>
-    </div>
-  </footer>
+<?php include 'php/footer.php'; ?>
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
