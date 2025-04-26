@@ -84,7 +84,7 @@ https://templatemo.com/tm-589-lugx-gaming
                 </div>
               </div>
               <div class="col-lg-12">
-                <form id="contact-form" action="" method="post">
+                  <form id="contact-form" action="php/database/contact-form-handler.php" method="post">
                   <div class="row">
                     <div class="col-lg-6">
                       <fieldset>
