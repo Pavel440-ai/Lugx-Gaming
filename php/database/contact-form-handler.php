@@ -1,18 +1,15 @@
 <?php
-// Подключение к базе данных
-$servername = "localhost"; // или твой сервер
-$username = "root";        // твой пользователь БД
-$password = "";            // твой пароль БД
-$dbname = "contact_form";  // имя БД
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "contact_form";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Проверка соединения
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Проверка, если форма отправлена
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $conn->real_escape_string($_POST['name']);
     $surname = $conn->real_escape_string($_POST['surname']);
