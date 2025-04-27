@@ -21,10 +21,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             VALUES ('$name', '$surname', '$email', '$subject', '$message')";
 
     if ($conn->query($sql) === TRUE) {
-        echo "<script>alert('Message sent successfully!'); window.location.href='contact.php';</script>";
+        header('Location: /FinalProject/thankyou.php');
+        exit();
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
+
 }
 
 $conn->close();

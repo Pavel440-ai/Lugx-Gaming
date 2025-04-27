@@ -113,7 +113,7 @@ https://templatemo.com/tm-589-lugx-gaming
                     </div>
                     <div class="col-lg-12">
                       <fieldset>
-                        <button type="submit" id="form-submit" class="orange-button">Send Message Now</button>
+                          <button type="submit" id="form-submit" class="orange-button">Send Message Now</button>
                       </fieldset>
                     </div>
                   </div>
