@@ -1,33 +1,26 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "contact_form";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+require_once 'php/database/Database.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $conn->real_escape_string($_POST['name']);
-    $surname = $conn->real_escape_string($_POST['surname']);
-    $email = $conn->real_escape_string($_POST['email']);
-    $subject = $conn->real_escape_string($_POST['subject']);
-    $message = $conn->real_escape_string($_POST['message']);
+    $name    = $_POST['name'];
+    $surname = $_POST['surname'];
+    $email   = $_POST['email'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
 
-    $sql = "INSERT INTO messages (name, surname, email, subject, message) 
-            VALUES ('$name', '$surname', '$email', '$subject', '$message')";
+    $database = new Database();
+    $conn = $database->connect();
 
-    if ($conn->query($sql) === TRUE) {
+    $stmt = $conn->prepare("
+        INSERT INTO messages (name, surname, email, subject, message) 
+        VALUES (?, ?, ?, ?, ?)
+    ");
+
+    // Execute the statement with the submitted values
+    if ($stmt->execute([$name, $surname, $email, $subject, $message])) {
         header('Location: /FinalProject/thankyou.php');
         exit();
     } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
+        echo "Error occurred while inserting data.";
     }
-
 }
-
-$conn->close();
-
