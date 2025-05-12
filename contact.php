@@ -139,6 +139,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
 </div>
 
+<?php include 'php/footer.php'; ?>
+
 <!-- Scripts -->
 <!-- jQuery (if required) -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
