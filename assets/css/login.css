@@ -1,0 +1,84 @@
+body {
+    background: #f0f4fc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.registration-container {
+    background-color: white;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 113, 248, 0.15);
+    max-width: 400px;
+    width: 100%;
+}
+
+.registration-container h2 {
+    color: #0071f8;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.registration-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-container label {
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+.registration-container input[type="text"],
+.registration-container input[type="email"],
+.registration-container input[type="password"] {
+    padding: 12px;
+    border: 1px solid #cce0ff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+.registration-container input:focus {
+    outline: none;
+    border-color: #0071f8;
+}
+
+.registration-container button {
+    background-color: #0071f8;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registration-container button:hover {
+    background-color: #005ecc;
+}
+
+.registration-container p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.registration-container a {
+    color: #0071f8;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.error-message {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
