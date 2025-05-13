@@ -35,13 +35,23 @@ body {
 
 .registration-container input[type="text"],
 .registration-container input[type="email"],
-.registration-container input[type="password"] {
+.registration-container input[type="password"]{
     padding: 12px;
     border: 1px solid #cce0ff;
     border-radius: 8px;
     margin-bottom: 20px;
     font-size: 14px;
     transition: border-color 0.3s ease;
+}
+
+.registration-container select {
+    padding: 12px;
+    border: 1px solid #cce0ff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+    width: 100%;
 }
 
 .registration-container input:focus {

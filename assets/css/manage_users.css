@@ -1,0 +1,88 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.admin-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.admin-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.input-group input.form-control {
+    border-radius: 8px 0 0 8px;
+}
+
+.input-group .btn {
+    border-radius: 0 8px 8px 0;
+}
+
+.btn {
+    font-size: 0.95rem;
+    padding: 6x 12px;
+    border-radius: 7px;
+    transition: 0.2s ease-in-out;
+}
+
+.btn-primary {
+    background-color: #4e73df;
+    border-color: #4e73df;
+}
+
+.btn-primary:hover {
+    background-color: #2e59d9;
+    border-color: #2653d4;
+}
+
+.btn-danger {
+    background-color: #e74a3b;
+    border-color: #e74a3b;
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+    border-color: #b52a1d;
+}
+
+.table {
+    margin-top: 10px;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 0.95rem;
+    color: #4e73df;
+    text-decoration: none;
+}
+
+.back-btn:hover {
+    text-decoration: underline;
+}

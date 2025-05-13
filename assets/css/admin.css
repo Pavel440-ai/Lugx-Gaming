@@ -1,0 +1,56 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f1f3f5;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.admin-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 40px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.admin-form h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.admin-form p {
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+.btn-block {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 12px;
+    transition: all 0.2s ease;
+}
+
+.btn-link {
+    font-size: 0.95rem;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
